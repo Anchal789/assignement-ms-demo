@@ -92,6 +92,7 @@ const StudentSection = () => {
                           width: "auto",
                           objectFit: "contain",
                         }}
+                        loading="lazy"
                       />
                     </ModalBody>
                   </ModalContent>

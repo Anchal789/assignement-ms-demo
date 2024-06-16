@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LandingPageImage from "../Assignment Management System/admin/Screenshot 2024-05-01 223354.png";
 import SignupImage from "../Assignment Management System/admin/Screenshot 2024-05-01 223427.png";
 import LoginImage from "../Assignment Management System/admin/Screenshot 2024-05-01 223512.png";
 import DashboardImage from "../Assignment Management System/admin/Screenshot 2024-05-01 223532.png";

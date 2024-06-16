@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.scrollbar-custom::-webkit-scrollbar {
+  height: 3px;
+  /* Change the height of the scrollbar */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #000000;
+  /* Change the background color of the scrollbar track */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #ae0000;
+  /* Change the color of the scrollbar thumb */
+  border-radius: 10px;
+  /* Add rounded corners to the scrollbar thumb */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Change the color when hovering over the scrollbar thumb */
+
 }
 
-.App-link {
-  color: #61dafb;
+/* For Firefox */
+.scrollbar-custom {
+  scrollbar-width: thin;
+  /* Change the width of the scrollbar */
+  scrollbar-color: #d40000 #f1f1f1;
+  /* thumb color, track color */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sectionsDialog .MuiDialog-container .MuiPaper-root {
+  max-width: none !important;
 }

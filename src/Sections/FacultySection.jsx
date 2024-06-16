@@ -41,7 +41,7 @@ const FacultySection = () => {
     <>
       <section
         id="faculty"
-        className="py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-[#284B63]"
+        className="py-12 md:py-24 lg:py-32 bg-[#284B63] dark:bg-[#284B63]"
       >
         <div className="container mx-auto px-4 md:px-6 space-y-8">
           <div className="text-center space-y-4">

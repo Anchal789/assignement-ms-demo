@@ -29,14 +29,15 @@ const AdminSection = () => {
   };
 
   const images = [
-    { id: 1, src: SignupImage, title: "Admin Sign Up" },
-    { id: 2, src: LoginImage, title: "Admin Login" },
-    { id: 3, src: DashboardImage, title: "Admin Dashboard" },
-    { id: 4, src: FacultySignupImage, title: "Faculty Sign Up" },
-    { id: 5, src: StudentSignupImage, title: "Student Sign Up" },
-    { id: 6, src: PromoteStudentImage, title: "Promote Students" },
-    { id: 7, src: AddSubjectImage, title: "Add Subjects" },
-    { id: 8, src: MapSubjectImage, title: "Map Subjects" },
+    { id: 1, src: LandingPageImage, title: "Landing Page" },
+    { id: 2, src: SignupImage, title: "Admin Sign Up" },
+    { id: 3, src: LoginImage, title: "Admin Login" },
+    { id: 4, src: DashboardImage, title: "Admin Dashboard" },
+    { id: 5, src: FacultySignupImage, title: "Faculty Sign Up" },
+    { id: 6, src: StudentSignupImage, title: "Student Sign Up" },
+    { id: 7, src: PromoteStudentImage, title: "Promote Students" },
+    { id: 8, src: AddSubjectImage, title: "Add Subjects" },
+    { id: 9, src: MapSubjectImage, title: "Map Subjects" },
   ];
 
   return (
